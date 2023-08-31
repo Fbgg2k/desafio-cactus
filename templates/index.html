@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Página Inicial</h1>
+    </header>
+
+    <nav>
+        <div class="btn-container">
+            <div class="btn-box"> <!-- Nova div para a box com bordas -->
+                <a class="btn" href="/adicionar">Adicionar Fornecedor</a>
+                <a class="btn" href="/consultar">Consultar Fornecedores</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Conteúdo da página aqui -->
+    </main>
+        <!-- Botão de rede social - LinkedIn -->
+    <footer>
+        <p>Desenvolvido por 
+            <a class="social-btn" href="https://www.linkedin.com/in/fbferreiragg/">felipe ferreira</a>
+        </p>          
+    </footer>
+</body>
+</html>
+
