@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Consultar Fornecedores</title>
+</head>
+<body>
+    <header>
+    	<h1>Consultar Fornecedores</h1>
+        
+    </header>
+    
+    <!-- Lista de fornecedores -->
+    <div class="card-container">
+        {% for fornecedor in fornecedores %}
+        <div class="card">
+            <p>Razão Social: {{ fornecedor.razao_social }}</p>
+            <p>Endereço: {{ fornecedor.endereco }}</p>
+            <p>Nome do Contato: {{ fornecedor.contato_nome }}</p>
+            <p>Email do Contato: {{ fornecedor.contato_email }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Botões de navegação no footer -->
+    <footer>
+    	<nav>
+            <a href="/">Página Inicial</a>
+            <a href="/adicionar">Adicionar Fornecedor</a>
+        </nav>
+    </footer>
+</body>
+</html>
+
