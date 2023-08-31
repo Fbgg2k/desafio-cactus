@@ -74,7 +74,7 @@ Entendo que você deseja uma breve apresentação para o GitHub sobre o sistema 
 
 ---
 
-# Sistema de Controle de Fornecedores
+# Sistema de Controle de Fornecedores Cactus
 
 Este projeto é parte de uma avaliação para um estágio em TI e tem como objetivo criar um sistema de controle de fornecedores para uma empresa fictícia. O sistema será desenvolvido utilizando tecnologias modernas e práticas recomendadas de desenvolvimento.
 
